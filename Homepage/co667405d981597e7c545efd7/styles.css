@@ -1,0 +1,112 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    color: white;
+    background: linear-gradient(#ffffff, #ff7b00);
+    font-family: 'Oxanium', cursive;
+}
+
+h1, h2, h3, p, h4 {
+    text-shadow: 0 0 1px black;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline black;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+#hero {
+    background: url("images/muse.jpg") no-repeat center scroll;
+    background-size: cover;
+    height: 450px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 25px;
+    
+}
+
+#head {
+    font-size: 25px;
+}
+
+.header2 {
+    color: red;
+}
+
+.second-title {
+    margin-top: 40px; 
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon {
+    margin-top: 15px;
+    border: 5px solid white;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #4448d9, #5056ff);
+    box-shadow: 0 0 1px black;
+    width: 200px;
+    height: 300px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 20px;
+    text-align: center;
+}
+
+.avatar {
+    width: 150px;
+    border: 5px solid #222222;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#card {
+    width: 500px;
+    margin: 60px auto 20px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: white;
+    border-bottom: 5px solid #222222;
+    border-radius: 10px;
+    color: #2b2839;
+}
+
+.text {
+    display: flex;
+    
+}
